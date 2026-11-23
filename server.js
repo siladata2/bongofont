@@ -19,7 +19,7 @@ try {
   MAINTENANCE_PAGE = fs.readFileSync(path.join(__dirname, "404.html"));
 } catch {
   MAINTENANCE_PAGE = Buffer.from(
-    "<!DOCTYPE html><title>CIPHER MINI</title><h1>CIPHER MINI is under maintenance</h1>"
+    "<!DOCTYPE html><title>BONGO TRENDING</title><h1>CIPHER MINI is under maintenance</h1>"
   );
 }
 
